@@ -1,0 +1,165 @@
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to bottom, #000000, #8B0000);
+    color: #fff;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+img {
+    border: 2px solid red; 
+
+}
+.image-container {
+    position: relative;
+    width: 400px; 
+    height: 300px; 
+}
+
+.image-title {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+    font-size: 24px;
+    text-align: center; 
+}
+header a:hover {
+    background-color: red;
+}
+h1 {
+  color: red;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 56px;
+}
+h2{font-family:'Arial Narrow Bold', sans-serif;}
+P{
+    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+}
+.caixa-texto {
+    background-color: black; 
+    padding: 20px; 
+    border-radius: 5px; 
+}
+.caixa-texto p {
+    margin: 0; 
+}
+.icone-voltar {
+    position: absolute; 
+    top: 15px; 
+    left: 300px; 
+    z-index: 999; 
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+.icone-voltar:hover img {
+    transform: scale(1.1); /* Aumenta o tamanho do ícone em 10% */
+}
+.icone-texto {
+    display: none; /* Inicialmente oculta o texto */
+    position: absolute; /* Define a posição absoluta em relação ao ícone */
+    top: -20px; /* Define a distância do topo do ícone */
+    left: 50%; /* Define a distância da esquerda do ícone */
+    transform: translateX(-50%); /* Centraliza horizontalmente em relação ao ícone */
+    background-color: black; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 5px; /* Espaçamento interno */
+    border-radius: 5px; /* Borda arredondada */
+    font-size: 12px; /* Tamanho da fonte */
+    white-space: nowrap; /* Impede que o texto seja quebrado em várias linhas */
+}
+
+.icone-voltar:hover .icone-texto {
+    display: block; /* Exibe o texto quando o mouse está sobre o ícone */
+}
+.produto {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+}
+.produto img {
+    max-width: 100%;
+    height: auto;
+}
+.produto h2 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+.produto p {
+    font-size: 14px;
+    margin-top: 5px;
+}
+.produto button {
+    font-size: 14px;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: red; /* Altere para a cor desejada */
+}
+section img {
+    max-width: 100%;
+    height: auto;
+}
+.produto img {
+    max-width: 100%;
+    height: auto;
+    
+}
+
+
+
+
